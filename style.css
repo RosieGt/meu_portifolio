@@ -1,0 +1,239 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex; 
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+section {
+    padding: 80px 10%;
+}
+
+#sobre {
+    display: flex;          
+    flex-direction: column; 
+    align-items: center;    
+    text-align: center;
+}
+
+.foto-perfil {
+    width: 180px;       
+    height: 180px;      
+    border-radius: 50%; 
+    object-fit: cover;  
+    border: 4px solid #e67e22; 
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.sobre-texto {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 80px 15%;
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 1.3rem;
+}
+
+.sobre-texto strong {
+    color: #e67e22; 
+}
+
+.projeto-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projeto-card:hover {
+    transform: translateY(-5px);
+}
+
+.projeto-card h3 {
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+
+.projeto-card span {
+    display: block;
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    margin: 10px 0;
+}
+
+.projeto-card a {
+    display: inline-block;
+    background-color: #2c3e50;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 40px;
+}
+
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin: 5px 0;
+    }
+}
+#contato {
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+.contato-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+.campo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.campo input, .campo textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.botao-enviar {
+    width: 100%;
+    padding: 12px;
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.botao-enviar:hover {
+    background-color: #d35400;
+}
+
+.links-alternativos {
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+.link-social {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.grid-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+.projeto-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.capa-projeto {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+
+.repo-card {
+    border-top: 4px solid #2c3e50; 
+}
+
+.projeto-info {
+    padding: 15px;
+}
+
+.botao {
+    display: block;
+    background: #e67e22;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.link-github {
+    color: #2c3e50;
+    font-weight: bold;
+    text-decoration: underline;
+}

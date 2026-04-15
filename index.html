@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portifolio / Rosirene Cruz</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#meus-repositorios">Meus Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="sobre">
+         <img src="/img/perfil.jpeg" alt="Foto Rosirene" class="foto-perfil">
+        <h1>Rosirene Cruz</h1>
+        <div class="sobre-texto">
+        <p>
+            Sou Rosirene Cruz, tecnóloga em Sistemas para Internet e apaixonada por transformar ideias em soluções digitais. 
+            Com uma base sólida em desenvolvimento Full Stack, atuo na criação de sites e sistemas utilizando 
+            <strong>Python, Django, Node.js e React</strong>.
+        </p>
+        <p>
+            Minha trajetória inclui a automação de processos em secretaria escolar, onde desenvolvi sistemas para otimizar fluxos de trabalho. 
+            Domino ferramentas como <strong>HTML5, CSS3, JavaScript e Bootstrap</strong>, focando sempre em criar 
+            interfaces responsivas e experiências funcionais.
+        </p>
+    </div>
+    </section>
+    
+    <section id="meus-repositorios">
+        <h2>Repositórios no GitHub</h2>
+        <p>Projetos focados em lógica, backend e estudos.</p>
+        <div id="container-repos" class="grid-projetos"></div>
+    </section>
+
+    <section id="meus-sites">
+        <h2>Sites Publicados</h2>
+        <p>Sites funcionais com interface completa.</p>
+        <div id="container-sites" class="grid-projetos"></div>
+    </section>
+
+    
+    <section id="contato">
+    <h2>Entre em Contato</h2>
+    <p>Gostou do meu trabalho? Envie uma mensagem diretamente para o meu e-mail.</p>
+    
+    <div class="contato-wrapper">
+        <form action="https://rosirenercruz@gmail.com" method="POST" id="form-contato">
+            <div class="campo">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="name" placeholder="Seu nome" required>
+            </div>
+            
+            <div class="campo">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+            </div>
+            
+            <div class="campo">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="message" rows="5" placeholder="Como posso ajudar?" required></textarea>
+            </div>
+            
+            <button type="submit" class="botao-enviar">Enviar Mensagem</button>
+        </form>
+
+    </div>
+</section>
+</main>
+
+<footer>
+    <p>&copy; 2026 - Desenvolvido por Rosirene Cruz</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
