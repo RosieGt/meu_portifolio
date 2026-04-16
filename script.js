@@ -32,7 +32,7 @@ const todosProjetos = [
     {
         titulo: "Iprocenter",
         descricao: "Assistência técnica de celulares e venda de produtos.",
-        link: " https://rosiegt.github.io/iprocenter/",
+        link: "https://rosiegt.github.io/iprocenter/",
         imagem: "meu_portifolio/img/ipro.jpg",
         tipo: "site"
     },
