@@ -26,7 +26,7 @@ const todosProjetos = [
     {
         titulo: "Gerenciamento de Biblioteca",
         descricao: "Desenvolvimento de uma aplicação para controle de acervo e empréstimos de livros.",
-        link: "https://github.com/RosieGt/leitorcod",
+        link: "https://github.com/RosieGt/biblioteca3",
         tech: "HTML, CSS, JS, Python, Django, SQLite"
     },
     {
