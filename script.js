@@ -33,14 +33,14 @@ const todosProjetos = [
         titulo: "Iprocenter",
         descricao: "Assistência técnica de celulares e venda de produtos.",
         link: "https://rosiegt.github.io/iprocenter/",
-        imagem: "./meu_portifolio/img/ipro.jpg",
+        imagem: "./img/ipro.jpg",
         tipo: "site"
     },
     {
         titulo: "Projeto Pizzas",
         descricao: "Interface de seleção e compra de pizzas com carrinho dinâmico.",
         link: "https://rosiegt.github.io/projetopizzas2/",
-        imagem: "./meu_portifolio/img/pizza.jpg",
+        imagem: "./img/pizza.jpg",
         tipo: "site"
     },
 ];
